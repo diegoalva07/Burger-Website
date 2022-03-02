@@ -95,6 +95,61 @@
         </div>
     </div>
 
+    <div class="container-fluid bg-dark">
+        <div class="row text-center">
+            <div class="col-md-7 text-light font-italic">
+                <p>Sign up for exclusive offers...</p>
+            </div>
+            <div class="col-md-5">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal"  data-bs-target="#exampleModal">Sign up Here</button>
+            </div>
+        </div>
+    </div>
+    <!--Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign up for exclusive offers!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <form>
+                    <div class="form-group">
+                        <label for="nameInput">Your Name</label>
+                        <input type="text" class="form-control" id="nameInput" placeholder="Enter your name">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="emailInput">Your email</label>
+                        <input type="text" class="form-control" id="emailInput" placeholder="Enter your email">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="addressInput">Your address</label>
+                        <textarea class="form-control" id="addressInput" rows="3" placeholder="Enter you Address"></textarea>
+
+                    </div>
+
+             
+                <div class="modal-footer justify-content-between">
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input" id="emailCheck" value="option1">
+                        <label class="form-check-label" for="emailCheck">Contact by Email?</label>
+                    </div>
+                     <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input" id="postCheck" value="option1">
+                        <label class="form-check-label" for="postCheck">Contact by post?</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
