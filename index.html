@@ -16,9 +16,35 @@
 
 <body>
 
-    <header>
+<header>
+ 
+   
+     <nav class="navbar navbar-expand-md navbar-dark navbar-dark fixed-top bg-dark">
+         <a class="navbar-brand" href="">Gourmet Burgers</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+             <ul class="navbar-nav me-auto">
+                 <li class="nav-item">
+                     <a class="nav-link"> Home</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link">Locations</a>
+                 </li>
+             </ul>
 
-        <div id="carouselCrontrols" class="carousel slide" data-bs-ride="carousel">
+             <form class="form-inline my-2 my-md-1">
+                 <input class="form-control mr-sm-2 " type="text" placeholder="Search">
+                 <button class="btn btn-outline-success my-sm-2" type="submit">Search</button>
+             </form>
+         </div>
+     </nav>
+
+
+    </header>
+    
+      <div id="carouselCrontrols" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="w-100" src="img/carousel1.jpg" alt="First Slide">
@@ -47,32 +73,7 @@
         </div>
 
 
-        <nav class="navbar navbar-expand-md navbar-dark navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="">Gourmet Burgers</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link"> Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Locations</a>
-                    </li>
-                </ul>
-                <form>
-                    <input>
-                    <button type="submit">Search</button>
-                </form>
-
-            </div>
-        </nav>
-
-
-    </header>
-
-    <div class="container text-center">
+    <div class="container text-center py-5">
         <div class="row">
             <div class="col-md-4">
                 <img class="rounded-circle" src="img/open.jpg" alt="restaurants images">
@@ -149,6 +150,17 @@
             </div>
         </div>
     </div>
+    
+    <footer class="container bg-light py-4">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2022 Gourment Burgers &middot;
+           <a href="">Home</a>
+           &middot;
+           <a href="">Locations</a>
+            
+        </p>
+        
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
